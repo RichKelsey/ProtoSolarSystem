@@ -17,6 +17,7 @@ public class CameraSwitcher : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //swap between cams based on key presses, priority decides this and is a value between 0 and 1
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             mapCam.Priority = 0;

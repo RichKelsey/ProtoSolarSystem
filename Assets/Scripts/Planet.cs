@@ -21,7 +21,7 @@ public class Planet : MonoBehaviour
 
     public void UpdatePlanetVelocity(Planet[] planetArray, float physicsTickRate, float gravitationalConstant)
     {
-        
+        //iterate through each planet and update their velocities by applying Newtons law of universal gravitation
         foreach(var notThisPlanet in planetArray)
         {
             if (notThisPlanet != this)
@@ -40,6 +40,7 @@ public class Planet : MonoBehaviour
 
     }
 
+    //update the position of the planet using the velocity calculated in UpdatePlanetVelocity()
     public void UpdatePlanetPosition(float physicsTickRate)
     {
 
