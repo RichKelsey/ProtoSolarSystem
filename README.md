@@ -7,6 +7,8 @@ Gravity simulated using <a href="https://en.wikipedia.org/wiki/Newton%27s_law_of
 alt="IMAGE ALT TEXT HERE" width="480" height="320" border="10" /></a>
 
 ## Screenshots:
+GIF:
+![Gif](https://i.imgur.com/HDcrpdN.gif "Solar System Overview GIF")
 
 Image of Solar System being simulated:
 ![overview](https://i.imgur.com/UhON7bp.png "Solar System Overview")
